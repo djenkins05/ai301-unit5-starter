@@ -1,45 +1,29 @@
 # Scope: where to look, and who is looking
 
-<!--
-This is the real-world scope. It replaces the sandbox scope.md in
-your installed skill: the field is no longer the Path Review repo,
-and the house rules do not travel. Like every scope file, this one is
-the skill's field of view: the rubric (rubric.md) decides whether an
-issue is GOOD; the scope decides which issues are candidates at all,
-and the strategy (search-strategy.md) decides where the scout
-actually walks. Live mode only: in eval mode the bundle is the whole
-world and this file is ignored.
--->
-
 ## Where candidates come from
 
-Any public repository. The sandbox is behind you; the field is now
-all of GitHub, and your fit profile below is what keeps that
-searchable. Start from repos in languages and tools you named there,
-and let the profile steer where you search, not just how results are
-ranked.
+Any public GitHub repository is eligible for consideration.
 
-**Claims count again.** The Path Review house rule does not travel.
-Out here a claim comment or an assignee is a stranger who got there
-first, and you have no channel to coordinate with them. Read claim
-signals exactly as the rubric's checks state them; do not carry the
-classroom habit of claiming over someone.
+Start by searching repositories that use Python, Java, JavaScript, or technologies related to APIs, backend development, testing, and debugging.
 
-**Claim upstream the moment you commit.** The rule cuts both ways:
-the instant you decide to take an issue, say so on the issue itself
-(a short comment: what you plan to do and roughly when). You are now
-the claim signal someone else's skill will read. Deciding privately
-and claiming later is how two strangers do the same work twice.
+Use the fit profile below to guide where to search and how to rank accepted issues. The rubric in `rubric.md` determines whether an issue is acceptable, regardless of personal fit.
+
+**Claims count again.** Unlike the Path Review classroom repository, issues claimed by other contributors should not be treated as available. An active claim comment, assignee, or open linked pull request must be evaluated according to the rubric.
+
+**Claim upstream the moment you commit.** Once I decide to work on an issue, I should post a short comment explaining what I plan to work on and approximately when I expect to complete it. I should not claim an issue until I have actually decided to take it.
 
 ## Your fit profile
 
-<!-- Paste this forward from your sandbox scope.md, and update it:
-it now does more work. Besides ranking the issues your rubric
-accepts, it steers WHERE the scout searches: your search-strategy.md
-queries should each trace to a sentence here, so name the languages,
-tools, and project areas you actually want to work in, and anything
-you want to avoid. It still never changes a verdict: fit cannot
-rescue an issue your rubric rejects, and cannot sink one it
-accepts. -->
+I have experience programming primarily in Python and Java, along with experience using JavaScript and React for web development. I have worked with APIs, Django, Git/GitHub, object-oriented programming, data structures, databases, and client-server applications. I am comfortable debugging existing code and implementing focused backend or application features.
 
-(Paste your fit profile here.)
+I would like to improve my experience contributing to an existing codebase, especially working with Python, APIs, backend development, testing, and debugging. I am particularly interested in projects involving backend services, REST APIs, automation, application development, and developer tools.
+
+I am comfortable investigating bugs, writing or improving tests, fixing smaller application issues, improving documentation, and implementing clearly defined features. I prefer issues where I can use my existing programming knowledge while learning how an established open-source project is organized.
+
+For my first contribution, I would prefer a clearly scoped issue with enough information to understand the expected behavior. I would like to avoid issues that require major architectural changes, extensive unfamiliar infrastructure work, complex deployment environments, or large refactors across multiple unrelated components.
+
+My strongest preferences are Python projects, especially those involving APIs, backend logic, testing, or debugging. Java projects are also a good fit, followed by JavaScript or React application issues.
+
+I prefer actively maintained repositories that welcome new contributors and provide clear contribution instructions. Issues labeled "good first issue", "beginner", or "help wanted" are especially interesting, but labels alone do not determine whether an issue is acceptable.
+
+My goal is to find a realistic first open-source contribution that allows me to practice reading existing code, understanding requirements, implementing a focused change, testing my work, and submitting a pull request.
